@@ -1,6 +1,20 @@
-.App {
-  text-align: center;
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #343a40; 
+  color: #fff; 
+  border-radius: .3rem;
 }
+
+/*styles.css 
+.custom-jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #343a40;  Replace with your desired dark background color 
+  color: #fff;  White text color 
+  border-radius: .3rem;
+}*/
 
 .App-logo {
   height: 40vmin;
