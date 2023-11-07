@@ -19,7 +19,7 @@ services:
       restart: always
       depends_on:
         - mysqldb
-      image: 'yahouza/spring-app-image:v1'
+      image: 'spring-app-image'
       ports:
         - '8080:8080'
       environment:
@@ -37,7 +37,7 @@ services:
     react:
       depends_on:
         - springboot
-      image: 'yahouza/react-app-image'
+      image: 'spring-app-image1'
       ports:
         - '3000:3000'
       networks:
